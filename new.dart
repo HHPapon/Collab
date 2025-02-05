@@ -7,12 +7,15 @@ class Person {
 
   // Redirecting constructor
   Person.newBorn(String name) : this(name, 0);
+  void display(){
+      print(name); // Output: Baby
+  print(age);  // Output: 0
+  }
 }
 
 void main() {
   Person person = Person.newBorn('Baby');
-  print(person.name); // Output: Baby
-  print(person.age);  // Output: 0
   print("New branch starts here");
+  person.display();
 }
 
