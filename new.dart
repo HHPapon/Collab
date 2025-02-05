@@ -13,5 +13,6 @@ void main() {
   Person person = Person.newBorn('Baby');
   print(person.name); // Output: Baby
   print(person.age);  // Output: 0
+  print("New branch starts here");
 }
 
