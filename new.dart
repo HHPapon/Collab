@@ -7,10 +7,9 @@ class Person {
 
   // Redirecting constructor
   Person.newBorn(String name) : this(name, 0);
-  void display(){
-      print(name); // Output: Baby
-  print(age);  // Output: 0
-  }
+void display() {
+  print("Name: $name, Age: $age");  
+}
 }
 
 void main() {
